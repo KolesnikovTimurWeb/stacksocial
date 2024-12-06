@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  z-index: 1000;
+  padding-top: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+
+  &_logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    span {
+      font-weight: 600;
+      color: #000;
+    }
+  }
+  &_main {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &_registration {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

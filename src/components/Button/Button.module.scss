@@ -1,0 +1,37 @@
+.button {
+  &_primary {
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    background: #18181b;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &_primary_outlined {
+    border-radius: 8px;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    background: transparent;
+
+    border: 1px solid #18181b;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &_large {
+    padding: 10px 24px;
+    font-size: 16px;
+  }
+  &_normal {
+    padding: 8px 14px;
+  }
+  &_small {
+    padding: 4px;
+  }
+}

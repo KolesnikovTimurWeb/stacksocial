@@ -1,0 +1,53 @@
+.stack_sidebar {
+  // background: #f7f6f6;
+  border-radius: 8px;
+  border: 1px solid #09090b1a;
+  padding: 20px;
+  &_option {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    label {
+      font-weight: 500;
+    }
+    &_select {
+      border: 1px solid #09090b1a;
+      padding: 5px 11px;
+      border-radius: 8px;
+      color: #09090b;
+      &:focus {
+        border: 1px solid #000;
+      }
+    }
+  }
+  &_input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    label {
+      font-weight: 500;
+    }
+    input {
+      padding: 8px 11px;
+      border-radius: 8px;
+      background: transparent;
+      border: 1px solid #09090b1a;
+      color: #09090b;
+
+      &:focus {
+        border: 1px solid #000;
+      }
+    }
+  }
+  &_apply {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    button {
+      width: 100%;
+    }
+  }
+}
