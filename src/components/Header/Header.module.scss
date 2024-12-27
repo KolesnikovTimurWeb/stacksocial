@@ -6,7 +6,14 @@
   left: 0;
   width: 100%;
   background: #fff;
-
+  &_nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    a {
+      color: #000;
+    }
+  }
   &_logo {
     display: flex;
     align-items: center;
